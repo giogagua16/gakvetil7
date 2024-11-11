@@ -1,0 +1,54 @@
+#gagua{
+  height: 1200px;
+  width: 100%;
+  background-image: url(https://i.pinimg.com/originals/1b/fe/cc/1bfecc195f9fc962f361f38bd6f59c5a.jpg);
+  background-repeat:  no-repeat;
+  background-size: cover;
+
+}
+#bowo{
+  margin-top: 790px;
+  height: 425px;
+  animation-name: pipia;
+  animation-duration: 13s;
+  position: absolute;
+}
+@keyframes pipia{
+  0%{
+    left:0px;
+  }
+  70%{
+    left:825px ;
+  }
+  73%{
+    left: 825px;
+  }
+  100%{
+    left: 1900px;
+  }
+
+}
+#iva{
+  width: 200px;
+  margin-top: 1000px;
+  margin-left: 1200px;
+  animation-name: grinchi;
+  animation-duration: 10s;
+  position: absolute;
+  animation-delay: 3s;
+  }
+@keyframes grinchi{
+  from {margin-top:1000px}
+  to {margin-top:700px}
+}
+#eka{
+  margin-top: 250px;
+  animation-name: operacia;
+  animation-duration: 15s;
+  position: absolute;
+
+}
+@keyframes operacia{
+  from {margin-left:0px}
+  to {margin-left:1850px}
+}
